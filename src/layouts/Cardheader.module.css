@@ -1,0 +1,51 @@
+.boxlist{
+   
+    border: 1px solid;
+}
+.weblist{
+    
+    display: inline-flex;
+    width: 100%;
+     list-style-type:none;
+     margin-left:-40px;
+     border: 1px solid white;
+     color: gray;
+     font-weight: normal;
+}
+
+.a{
+    text-align:center;
+    align-content: flex-end; 
+    border-bottom: 3px solid blue;
+    margin-bottom: -3px;
+}
+
+.btnBootstrap{
+    margin-top: 20px;
+    /* margin-left:0.5px; */
+    border: 1px;
+    border-radius: 5px;
+    padding: 3px 8px;
+    font-size: 14px;
+    background-color: rgb(224,229,236);
+    margin-bottom: 10px;
+}
+
+.btnBootstrap:hover{
+    background-color: rgb(192,203,219);
+}
+.para{
+    display: inline-flex;
+    flex-wrap:wrap-reverse;
+   margin-left: 60%;
+   color: gray;
+   font-weight: normal;
+}
+.paraImg:hover{
+    border-bottom: 1px solid black;
+}
+.item{
+    border: 1px solid white;
+    background-color: white;
+    box-shadow: 2px 3px 3px rgb(206, 206, 206);
+}
